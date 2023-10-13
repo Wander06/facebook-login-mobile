@@ -1,0 +1,161 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: sans-serif;
+}
+
+h1{
+ color: #006FFF;
+ text-align: center;
+ margin: 20px 0px 20px 0px;
+ font-weight: 800;
+ font-size: 25px;
+}
+
+header{
+ background-color: #FFF6DE;
+ display: flex;
+ align-items: center;
+}
+
+#advertising{
+ font-size: 14px;
+ text-decoration: none;
+  color: #505CDB;
+
+}
+
+#iconFace{
+ width: 50px;
+}
+
+main{
+ margin: 10px;
+ 
+}
+
+form{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
+.inputLogin{
+ height: 50px;
+ font-size: 15px;
+ background-color: rgba(247, 247, 247, 1);
+ border: none;
+ border-radius: 2px;
+ padding-left: 10px;
+ box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+#buttonLogin{
+ background-color: #0B75FF;
+ border-radius: 2px;
+ border: none;
+ height: 50px;
+ color: white;
+ font-size: 17px;
+ font-weight: 1000;
+ box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#passwordForgot{
+ color: #0B75FF;
+ text-align: center;
+ text-decoration: none;
+ margin-top: 5px;
+}
+
+.line-with-text {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+ }
+
+.line {
+  flex: 1;
+  border-top: 1px solid #959595;
+}
+    
+span{
+ margin: 10px;
+}
+
+.containerSignin{
+ display: flex;
+ justify-content: center;
+ margin-top: 10px;
+}
+
+#signIn{
+ background-color: white;
+ font-size: 15px;
+ font-weight: 500;
+ border: 0.5px solid;
+ border-radius: 5px;
+ height: 40px;
+ width: 80%;
+}
+
+footer{
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin-top: 100px;
+}
+
+.containerLanguages{
+ display: flex;
+ justify-content: space-around;
+ text-align: center;
+ color: #114991
+}
+
+#moreLanguages{
+ background-color: white;
+ border: 1px solid #114991;
+ color: #5D5D5D;
+ font-size: 20px;
+ font-weight: 500;
+ border-radius: 2px;
+ width: 25px;
+ height: 25px;
+}
+
+#defaultLanguage{
+ color: #646464
+}
+
+li{
+ list-style-type: none;
+}
+
+.containerList{
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top:20px;
+}
+
+.childrenList{
+ width: 50%
+}
+
+.aboutList{
+ display: flex;
+ justify-content: space-evenly;
+ margin-bottom: 10px;
+ color: #8D8D8D;
+ font-size: 13px;
+}
+
+span{
+ color: #717171;
+ font-size: 13px;
+}
